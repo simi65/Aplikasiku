@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Daftar_suara_adzan">
+
+        <item>adzan muhhammad thaha</item>
+        <item>adzan mesir</item>
+        <item>adzan madinah</item>
+        <item>adan makkah</item>
+    </string-array>
+</resources>

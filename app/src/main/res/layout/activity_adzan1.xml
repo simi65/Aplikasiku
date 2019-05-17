@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    android:background="#FFF5F5F5"
+    >
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listItem"
+        android:entries="@array/Daftar_suara_adzan"
+        android:padding="15dp">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back"/>
+
+
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_marginTop="102dp"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/btnPAUSE"
+            android:layout_toStartOf="@+id/btnPAUSE"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignTop="@+id/btnPAUSE"
+            android:layout_toRightOf="@+id/btnPAUSE"
+            android:layout_toEndOf="@+id/btnPAUSE"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignTop="@+id/btnPLAY"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="by MisbahBagaskara"
+            android:id="@+id/textView2"
+            android:layout_marginBottom="106dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+
+
+
+
+</LinearLayout>
